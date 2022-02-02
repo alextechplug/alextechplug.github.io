@@ -262,12 +262,28 @@
   border-bottom: 4px solid rgb(132, 0, 255);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .hero__heading {
-    font-size: 60px;
+    font-size: 25px;
   }
+  
+  @media screen and (max-width: 400px) {
+  .hero {
+    height:400px;
+    width: 400px;
+    background: url('images/blood_drive_header_dark.png');
+    background-size:cover;
+    position:relative;
+}
+    
+    
 
   .hero__description {
+    font-size: 40px;
+  }
+    
+    @media screen and (max-width: 480px) {
+    .hero__description {
     font-size: 40px;
   }
 }
